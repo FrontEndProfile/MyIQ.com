@@ -1,0 +1,523 @@
+<!doctype html>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+      <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+      <header
+            class="md:bg-[url('../../public/images/header-bg.png')] bg-[url('../../images/header-bg-mobile.png')] bg-cover bg-no-repeat"
+            style="background: url('images/header-bg-mobile.png');background-size: cover;background-repeat: no-repeat;">
+            <nav class=" border-gray-200 px-2 sm:px-4 py-4 rounded ">
+                  <div class="container flex flex-wrap items-center justify-between mx-auto sm:px-0 px-3">
+                        <a href="#" class="flex items-center">
+                              <img src="images/logo.svg" class="md:w-full w-48" alt="Flowbite Logo" />
+                        </a>
+                        <button data-collapse-toggle="navbar-default" type="button"
+                              class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden "
+                              aria-controls="navbar-default" aria-expanded="false">
+                              <span class="sr-only">Open main menu</span>
+                              <svg width="16" height="5" viewBox="0 0 16 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="16" height="1" fill="white" />
+                                    <rect y="4" width="16" height="1" fill="white" />
+                              </svg>
+
+                        </button>
+                        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                              <ul class="flex flex-col p-4 mt-4 items-center  md:flex-row md:space-x-8 md:mt-0">
+                                    <li>
+                                          <a href="#"
+                                                class="block  text-white font-semibold text-base rounded md:bg-transparent md:p-0 "
+                                                aria-current="page">Learn More</a>
+                                    </li>
+                                    <li>
+                                          <a href="#"
+                                                class="block lg:px-12 px-6 md:py-0 py-4 text-white font-semibold text-base rounded md:bg-transparent  ">Contact
+                                                Us</a>
+                                    </li>
+                                    <li>
+                                          <a href="#"
+                                                class="block py-3 bg-purple-100 text-white hover:bg-transparent px-6 drop-shadow-3xl border border-purple-100 rounded  hover:text-white text-base  font-semibold">Start
+                                                Now</a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </nav>
+            <div class="text-gray-600 body-font overflow-hidden lg:pt-16 md:pt-8 pt-0 lg:pb-28 md:pb-20 sm:pb-16 pb-12">
+                  <div class="container mx-auto sm:px-0 px-3">
+                        <div class=" mx-auto flex flex-wrap">
+                              <div class="lg:w-7/12 md:w-1/2 w-full md:order-1 order-2  mt-6 lg:mt-0">
+                                    <div
+                                          class="md:inline-flex hidden items-center justify-center leading-none mb-7 bg-black-1000 rounded-full">
+                                          <span class="px-1 py-0.5  text-xs  leading-5 text-white"><img
+                                                      src="images/certifacte.svg"></span> <span
+                                                class="lg:text-base text-[13px] font-medium lg:px-3 px-1 text-white">32,000
+                                                tests taken
+                                                today</span><Span><img src="images/usa-flag.svg"
+                                                      class="h-5 w-auto pr-2"></Span>
+                                    </div>
+                                    <h1 class="lg:text-6xl md:text-4xl text-[34px] leading-9 text-white font-extrabold">
+                                          The <Span class="text-purple-100">last IQ test</Span> you’ll ever need to take
+                                    </h1>
+                                    <ul class="lg:mt-10 md:mt-6 mt-4">
+                                          <li class="flex mb-4">
+                                                <img src="images/tick.svg" class="md:hidden inline-block"><img
+                                                      src="images/result-tick.svg" class="md:inline-block hidden"> <Span
+                                                      class="lg:text-xl text-[14px] md:ml-6 ml-[10px] text-white font-semibold">Find
+                                                      out your
+                                                      accurate IQ today</Span>
+                                          </li>
+                                          <li class="flex mb-4">
+                                                <img src="images/tick.svg" class="md:hidden inline-block"><img
+                                                      src="images/result-tick.svg" class="md:inline-block hidden"> <Span
+                                                      class="lg:text-xl text-[14px]  md:ml-6 ml-[10px] text-white font-semibold">Compare
+                                                      against your
+                                                      friends, family & colleagues</Span>
+                                          </li>
+                                          <li class="flex">
+                                                <img src="images/tick.svg" class="md:hidden inline-block"><img
+                                                      src="images/result-tick.svg" class="md:inline-block hidden"> <Span
+                                                      class="lg:text-xl text-[14px]  md:ml-6 ml-[10px] text-white font-semibold">Your
+                                                      score broken
+                                                      down into 5 sections</Span>
+                                          </li>
+                                    </ul>
+                                    <div class="md:max-w-sm md:mt-11 mt-[36px]">
+                                          <A href="#"
+                                                class="text-white bg-gradient-to-r w-full block text-center hover:from-transparent  from-purple-100 to-purple-100 text-base font-semibold drop-shadow-3xl border-2 border-purple-100 rounded py-3 md:px-36 px-12">Start
+                                                Now</A>
+                                          <div class="text-center pt-6">
+                                                <p class="text-[10px] text-white  font-light">The free results will tell
+                                                      you your IQ type within
+                                                      minutes</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="lg:w-5/12  md:w-1/2 w-full md:order-2 order-1">
+                                    <img alt="ecommerce" class="md:max-w-full max-w-[272px] mx-auto"
+                                          src="images/header-img.png">
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+      </header>
+      <section class="bg-[url('images/heading-bg.png')] bg-cover bg-no-repeat  lg:py-24 md:py-16 py-12"
+      style="background: url('images/heading-bg.png');background-size: cover;background-repeat: no-repeat;">
+            <div class="container mx-auto sm:px-0 px-3">
+                  <div class="text-center">
+                        <h6 class="text-purple-100 md:text-base text-xs font-bold">Subheading</h6>
+                        <h2 class="text-white lg:text-4xl md:text-3xl  mt-2 text-2xl font-extrabold md:px-0 px-14">Why
+                              other IQ tests are broken</h2>
+                  </div>
+                  <div class="flex flex-wrap md:-m-4 m-0 lg:mt-16 md:mt-12 mt-10">
+                        <div class="md:w-1/3 lg:mb-0 mb-12 lg:p-3">
+                              <div class="h-full text-center">
+                                    <div
+                                          class="bg-gradient-to-b mx-auto  from-purple-1000 to-purple-1100 h-36 w-36 rounded-full">
+                                    </div>
+                                    <h2 class="text-white font-bold lg:text-[28px] pt-7 pb-1">Viverra elit eget</h2>
+                                    <p class="text-gray-1000 lg:text-base text-[15px] lg:px-4 px-2">Blandit phasellus
+                                          faucibus mauris felis
+                                          amet id. Justo vel ultrices tristique sed faucibus bibendum libero feugiat.
+                                          Faucibus nunc arcu facilisis nunc molestie lacus eu.</p>
+                              </div>
+                        </div>
+                        <div class="md:w-1/3 lg:mb-0  mb-12 lg:p-3">
+                              <div class="h-full text-center">
+                                    <div
+                                          class="bg-gradient-to-b mx-auto  from-purple-1000 to-purple-1100 h-36 w-36 rounded-full">
+                                    </div>
+                                    <h2 class="text-white font-bold text-[28px] pt-7 pb-1">Viverra elit eget</h2>
+                                    <p class="text-gray-1000 lg:text-base text-[15px] lg:px-4 px-2">Blandit phasellus
+                                          faucibus mauris felis
+                                          amet id. Justo vel ultrices tristique sed faucibus bibendum libero feugiat.
+                                          Faucibus nunc arcu facilisis nunc molestie lacus eu.</p>
+                              </div>
+                        </div>
+                        <div class="md:w-1/3 lg:mb-0  md:mb-12 mb-0 lg:p-3">
+                              <div class="h-full text-center">
+                                    <div
+                                          class="bg-gradient-to-b mx-auto  from-purple-1000 to-purple-1100 h-36 w-36 rounded-full">
+                                    </div>
+                                    <h2 class="text-white font-bold text-[28px] pt-7 pb-1">Viverra elit eget</h2>
+                                    <p class="text-gray-1000 lg:text-base text-[15px] lg:px-4 px-2">Blandit phasellus
+                                          faucibus mauris felis
+                                          amet id. Justo vel ultrices tristique sed faucibus bibendum libero feugiat.
+                                          Faucibus nunc arcu facilisis nunc molestie lacus eu.</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section
+            class="bg-[url('../../public/images/test-bg.png')] bg-cover bg-no-repeat  lg:pt-28 md:pt-20 pt-12 lg:pb-[445px] sm:pb-[180px] pb-[100px] relative">
+            <div class="text-center lg:mb-40 md:mb-28 sm:mb-24 mb-20">
+                  <h6 class="text-purple-100 md:text-base text-xs font-bold">Subheading</h6>
+                  <h2
+                        class="text-white lg:text-4xl md:text-3xl md:px-0 px-20 text-2xl font-extrabold mt-2 md:mb-4 mb-6">
+                        More than just an IQ test</h2>
+                  <p class="text-white max-w-[411px] mx-auto font-normal md:px-0 px-6 md:text-base text-[15px]">Integer
+                        phasellus tincidunt in
+                        hendrerit in. Feugiat enim cursus convallis cursus ultricies sed mus. Ac nisl odio commodo
+                        gravida.</p>
+            </div>
+            <div class="container mx-auto sm:px-0 px-3">
+                  <div class="relative">
+                        <div class=" mx-auto lg:hidden flex flex-wrap">
+                              <div class="w-1/2  absolute top-[-49px] left-3">
+                                    <img src="images/grapgh-2.png" class="inline-block">
+                                    <h1 class="text-white font-bold md:text-[28px] text-[22px] ">Verbal </h1>
+                                    <img src="images/v.svg">
+                              </div>
+                              <div class="w-[37%]  absolute top-[-50px] right-3">
+                                    <div class="text-right">
+                                          <img src="images/non-verbal.png" class="inline-block">
+                                          <h1 class="text-white font-bold md:text-[28px] text-[22px] ">Non-verbal</h1>
+                                          <img src="images/nv.svg" class="inline-block">
+                                    </div>
+                              </div>
+                        </div>
+                        <div class=" text-center">
+                              <img src="images/iq-mobile.png" class="lg:hidden inline-block w-full">
+                        </div>
+                        <div class=" mx-auto lg:hidden flex flex-wrap">
+                              <div class="w-1/2  absolute  left-3 bottom-[-42px]">
+                                    <img src="images/numeric-iq.png" class="inline-block">
+                                    <h1 class="text-white font-bold md:text-[28px] text-[22px] ">Numeric IQ </h1>
+                                    <img src="images/n.svg" class="inline-block">
+                              </div>
+                              <div class="w-[37%]  absolute  right-3 bottom-[-42px]">
+                                    <div class="text-right">
+                                          <img src="images/spatail.png" class="inline-block">
+                                          <h1 class="text-white font-bold md:text-[28px] text-[22px] ">Spatial</h1>
+                                          <img src="images/sp.svg" class="inline-block">
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class=" mx-auto lg:flex hidden flex-wrap">
+                        <div class="lg:w-1/4 md:1/2 w-full  mt-6 lg:mt-0">
+                              <div class="lg:text-right">
+                                    <img src="images/grapgh-2.png" class="inline-block">
+                                    <h1 class="text-white font-bold text-[28px] mb-2 mt-[-2px]">Verbal </h1>
+                                    <p class="text-white text-base font-normal">“The ability to analyse information and
+                                          solve problems using language-based reasoning”
+                                          (Logsdon, 2019)</p>
+                              </div>
+                              <div class="lg:text-right lg:mt-[183px] mt-5">
+                                    <img src="images/numeric-iq.png" class="inline-block">
+                                    <h1 class="text-white font-bold text-[28px] mb-2 mt-1">Numeric IQ </h1>
+                                    <p class="text-white text-base font-normal">“A composite of cognitive functions
+                                          specifically associated with mental operations related to numbers” i.e. your
+                                          ability to use numbers to solve problems - (S. Palma, 2010)</p>
+                              </div>
+                        </div>
+                        <div class="lg:w-1/2 md:1/2 w-full  mt-10 px-3 lg:block hidden">
+                              <img src="images/test-img.png" class="  w-full">
+                        </div>
+                        <div class="lg:w-1/4 md:1/2 w-full  mt-6 lg:mt-0 lg:text-left text-right">
+                              <div>
+                                    <img src="images/non-verbal.png" class="inline-block">
+                                    <h1 class="text-white font-bold text-[28px] mb-2 mt-[-2px]">Non-verbal </h1>
+                                    <p class="text-white text-base font-normal">“General cognition without the confound
+                                          of language ability” i.e. your ability to understand and analyse information
+                                          without using language - (DeThorne, 2004)
+                                    </p>
+                              </div>
+                              <div class="lg:mt-[149px] mt-6 lg:text-left text-right">
+                                    <img src="images/spatail.png" class="inline-block">
+                                    <h1 class="text-white font-bold text-[28px] mb-2 mt-1">Spatial</h1>
+                                    <p class="text-white text-base font-normal">“The ability to generate, retain,
+                                          retrieve, and transform well-structured visual images” - <br>(Lohman, 1996)
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="text-center lg:-mt-7 mt-3 ">
+                        <img src="images/iq-img.png" class="md:inline-block hidden">
+                        <img src="images/iq-img-mobile.png" class="md:hidden inline-block mt-[-51px]">
+                  </div>
+                  <div class=" mx-auto flex flex-wrap md:mt-6 break">
+                        <div class="md:w-1/4  w-full mt-[-18px] z-[9999]">
+                              <div class="text-center md:pr-7">
+                                    <img src="images/certified-img-mobile.png"
+                                          class="inline-block md:mb-12 sm:mb-8 mb-4 h-[170px] lg:hidden">
+                                    <img src="images/certified-img.png"
+                                          class="lg:inline-block hidden md:mb-12 sm:mb-8 mb-4 h-[183px]">
+                                    <h3 class="text-white font-bold md:text-[21px] text-base mt-1">Certified overall
+                                          <br>
+                                          IQ score</h3>
+                                    <img src="images/plus.svg" class="md:hidden inline-block mt-5">
+                              </div>
+
+                        </div>
+                        <div class="md:w-1/4  w-full md:mt-0 mt-6 z-[9999]">
+                              <div class="text-center">
+                                    <img src="images/breakdown-img.png"
+                                          class="inline-block md:mb-12 sm:mb-8 mb-4 h-[170px]">
+                                    <h3 class="text-white font-bold md:text-[21px] text-base">Breakdown of <br>
+                                          individual IQ scores</h3>
+                                    <img src="images/plus.svg" class="md:hidden inline-block mt-5">
+                              </div>
+                        </div>
+                        <div class="md:w-1/4  w-full md:mt-0 mt-6 z-[9999]">
+                              <div class="text-center">
+                                    <img src="images/report-img.png"
+                                          class="inline-block md:mb-12 sm:mb-8 mb-4 h-[170px]">
+                                    <h3 class="text-white font-bold md:text-[21px] text-base">14 page <br>
+                                          custom report</h3>
+                                    <img src="images/plus.svg" class="md:hidden inline-block mt-5">
+                              </div>
+                        </div>
+                        <div class="md:w-1/4  w-full z-[9999]">
+                              <div class="text-center">
+                                    <img src="images/offical-img.png"
+                                          class="inline-block md:mb-12 sm:mb-8 mb-4 h-[170px] md:pl-0 pl-7">
+                                    <h3 class="text-white font-bold md:text-[21px] text-base">Official IBPRA<br>
+                                          certificate</h3>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="absolute w-full md:-bottom-52 -bottom-16 z-10">
+                  <img src="images/content-img.png" class="inline-block w-full">
+            </div>
+      </section>
+      <section class="bg-[url('../../public/images/content-bg.png')] bg-cover bg-no-repeat relative ">
+            <div
+                  class="text-gray-600 body-font overflow-hidden xl:pt-80 md:pt-56 sm:pt-36 pt-20 xl:pb-28 md:pb-24 sm:pb-24 pb-12">
+                  <div class="container mx-auto sm:px-0 px-3">
+                        <div class=" mx-auto flex flex-wrap lg:items-start items-center">
+                              <div class="md:w-1/2 w-full  mt-6 lg:mt-0">
+                                    <div class=" max-w-[413px]">
+                                          <h6 class="text-purple-100 md:text-base text-xs font-bold mb-2">Subheading
+                                          </h6>
+                                          <h2 class="text-white lg:text-4xl xl:text-3xl text-2xl font-extrabold ">Our
+                                                test is made up of 32 fun
+                                                questions and the results are instant!</h2>
+                                          <p
+                                                class="text-gray-1000 md:text-base text-[15px] lg:mb-7 lg:mt-3 mt-0 lg:pt-6 pt-3 pb-9">
+                                                Integer phasellus tincidunt
+                                                in hendrerit in. Feugiat enim cursus convallis cursus ultricies sed mus.
+                                                Ac nisl odio commodo gravida.</p>
+                                          <a href="#"
+                                                class="text-white bg-gradient-to-r hover:from-transparent from-purple-100 to-purple-100 text-base font-semibold drop-shadow-3xl border-2 border-purple-100 rounded py-3 px-5 ">Start
+                                                Now</a>
+                                    </div>
+                              </div>
+                              <div class="md:w-1/2 w-full md:mt-0 mt-6">
+                                    <img alt="ecommerce" src="images/device-img.png">
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+            </div>
+      </section>
+      <section class="bg-blue-1100 lg:pt-40 md:pt-28 sm:pt-20 pt-12 lg:pb-32 md:pb-24 sm:pb-16 pb-8">
+            <div class="swiper mySwiper mr-0 ">
+                  <div class="swiper-wrapper md:pl-[178px] pl-[20px]">
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                        <div class="swiper-slide ">
+                              <div class="text-center bg-purple-1200 rounded-3xl px-7 pt-2 pb-8">
+                                    <img src="images/slider-img.svg" class="inline ">
+                                    <h1 class="text-white md:text-4xl sm:text-3xl text-2xl font-bold">Julian C</h1>
+                                    <h6 class="text-gray-1100">The Codebreaker</h6>
+                                    <ul class="flex items-center justify-center mt-3">
+                                          <li><img src="images/nv.svg"></li>
+                                          <li class="ml-2"><img src="images/n.svg"></li>
+                                          <li class="ml-2"><img src="images/sp.svg"></li>
+                                          <li class="ml-2"><img src="images/v.svg"></li>
+                                    </ul>
+                                    <p class="text-white  font-normal md:text-xl text-lg pb-9 pt-6 px-3">That was good
+                                          fun, it only took me 20 minutes. I love the report, there’s loads in there!
+                                    </p>
+                                    <img src="images/five-star.svg" class="inline ">
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <footer class="bg-purple-100 md:pt-20 sm:pt-16 pt-8 md:pb-8 pb-6">
+            <div class="text-center sm:px-0 px-6">
+                  <h1 class="text-white md:text-3xl sm:text-2xl text-xl font-extrabold">Take the first step to level
+                        <br>up your life with AMIQ</h1>
+                  <a href="#"
+                        class="bg-white  sm:mt-8 mt-4  lg:mb-24 md:mb-16 sm:mb-8 mb-4 rounded-md border border-white  shadow-3xl text-black-1100 font-medium sm:text-base text-xs smpy-[14px] py-3 sm:px-[23px] px-5 inline-block">Get
+                        your report</a>
+                  <p class="text-gray-1100 md:text-[21px]  text-base font-normal">© 2022 AnalyseMyIQ.com | All Rights
+                        Reserved | Website by LDOT
+                  </p>
+            </div>
+      </footer>
+      <script src="js/jquery.min.js"></script>
+      <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script src="js/index.js"></script>
+
+</body>
+
+</html>
